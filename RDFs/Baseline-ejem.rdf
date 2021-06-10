@@ -1,0 +1,34 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <dcat:Distribution rdf:about="https://europeandataportal.eu/set/distribution/4c4d48d0-9879-4759-b970-1247c26f4ae7">
+    <dcat:accessURL>
+      <foaf:Document rdf:about="https://www.geo.be/#!/catalog/details/ca0fd5c0-8146-11e9-9012-482ae30f98d9"/>
+    </dcat:accessURL>
+    <dcat:downloadURL rdf:resource="https://ac.ngi.be/remoteclient-open/GeoBePartners-open/BOSA/ca0fd5c0-8146-11e9-9012-482ae30f98d9_geopackage+sqlite3_3812.zip"/>
+    <dct:description xml:lang="fr">Donnees telechargeables</dct:description>
+    <dct:identifier>http://data.gov.be/dist/ngi/664ac037f682f58da52cdbceb024f8c51928354e/ad0ad607aaa131f871b2f076c7667ddf171edf8f</dct:identifier>
+    <dct:language>
+      <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/language/DEU">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/LinguisticSystem"/>
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/language"/>
+      </skos:Concept>
+    </dct:language>
+    <dct:license>
+      <dct:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    </dct:license>
+    <dct:format>
+      <dct:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    </dct:format>
+    <dcat:keyword>digital humanities</dcat:keyword>
+    <dcat:keyword>humanidades digitales</dcat:keyword>
+    <dcat:keyword>Latin America</dcat:keyword>
+    <dcat:theme rdf:resource="http://eurovoc.europa.eu/100142"/> 
+    <dcat:theme> Sciences </dcat:theme>
+  </dcat:Distribution>
+
+</rdf:RDF>

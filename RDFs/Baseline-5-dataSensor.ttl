@@ -1,0 +1,13 @@
+@prefix km4c: <http://www.disit.org/km4city/schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://trafair.eu/observation/modena/LP1/moto/2019-03-03T01:15:00>
+km4c:measuredBySensor <https://trafair.eu/sensor/modena/LP1> ;
+rdfs:label "moto" ;
+a km4c:TrafficObservation ;
+prov:startedAtTime "2019-03-03T01:00:00"^^xsd:dateTime ;
+prov:endedAtTime "2019-03-03T01:15:00"^^xsd:dateTime ;
+km4c:averageSpeed "94.2"^^xsd:string ;
+km4c:vehicleFlow "2"^^xsd:string .

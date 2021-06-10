@@ -1,0 +1,17 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#">
+  <dcat:Distribution rdf:about="https://europeandataportal.eu/set/distribution/c50d5240-4f1c-42ca-b65c-af820ba05d8d">
+    <dcat:accessURL rdf:resource="https://datamillnorth.org/download/leeds-annual-traffic-growth/a163a010-d809-4216-8229-fbb9270b117e/Data%2520November%25202020.csv"/>
+    <dct:description xml:lang="en">Traffic Count</dct:description>
+    <dct:title xml:lang="en"> November 2020</dct:title>
+    <dct:identifier>4c3a88cd-d7e8-490f-952f-d7b672db0062</dct:identifier>
+    <dct:license>
+      <dct:LicenseDocument rdf:about="http://reference.data.gov.uk/id/open-government-licence">
+        <dct:title>UK Open Government Licence (OGL)</dct:title>
+        <dct:identifier>uk-ogl</dct:identifier>
+      </dct:LicenseDocument>
+    </dct:license>
+  </dcat:Distribution>
+</rdf:RDF>

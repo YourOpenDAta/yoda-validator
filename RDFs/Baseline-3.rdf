@@ -1,0 +1,22 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:j.1="http://www.w3.org/2011/content#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <dcat:Distribution rdf:about="https://europeandataportal.eu/set/distribution/12ea20d7-f9ee-4628-a214-6e954ca0e683">
+    <dct:identifier>http://www.wasserblick.net/servlet/is/104200/</dct:identifier>
+    <j.1:characterEncoding>UTF-8</j.1:characterEncoding>
+    <dcat:accessURL rdf:resource="http://www.wasserblick.net/servlet/is/104200/"/>
+    <dct:rights>
+      <dct:RightsStatement>
+        <rdfs:label>restricted</rdfs:label>
+      </dct:RightsStatement>
+    </dct:rights>
+    <dct:license>
+      <dct:LicenseDocument>
+        <rdfs:label xml:lang="de">small scale application only, map scale 1:250.000 to 1:4.000.000</rdfs:label>
+      </dct:LicenseDocument>
+    </dct:license>
+  </dcat:Distribution>
+</rdf:RDF>

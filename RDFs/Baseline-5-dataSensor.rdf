@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ns0="http://www.disit.org/km4city/schema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:prov="http://www.w3.org/ns/prov#">
+
+  <rdf:Description rdf:about="https://trafair.eu/observation/modena/LP1/moto/2019-03-03T01:15:00">
+    <ns0:measuredBySensor rdf:resource="https://trafair.eu/sensor/modena/LP1"/>
+    <rdfs:label>moto</rdfs:label>
+    <rdf:type rdf:resource="http://www.disit.org/km4city/schema#TrafficObservation"/>
+    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-03T01:00:00</prov:startedAtTime>
+    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-03T01:15:00</prov:endedAtTime>
+    <ns0:averageSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94.2</ns0:averageSpeed>
+    <ns0:vehicleFlow rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ns0:vehicleFlow>
+  </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,20 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://purl.org/dc/terms/"
+    xmlns:j.1="http://www.w3.org/ns/dcat#">
+  <j.1:Distribution rdf:about="https://europeandataportal.eu/set/distribution/f5576722-5ac6-441e-b15c-a97f5bfa492a">
+    <j.0:title xml:lang="en">Annual earnings by economic control (enterprises with 10 employed persons or more) - NACE Rev. 2, B-S excluding O</j.0:title>
+    <j.0:license>
+      <j.0:LicenseDocument rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    </j.0:license>
+    <j.0:type rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+    <j.1:accessURL rdf:resource="http://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/earn_ses18_actrl.tsv.gz&amp;unzip=true"/>
+    <j.0:title xml:lang="fr">Salaire annuel par type de contrôle économique (entreprises avec 10 personnes employées ou plus) - NACE Rév. 2, B-S excepté O</j.0:title>
+    <j.0:identifier>http://data.europa.eu/88u/distribution/5e15169a-d8ca-49db-ac5f-06286de9484b</j.0:identifier>
+    <j.0:description xml:lang="en">Download dataset in TSV format (unzipped)</j.0:description>
+    <j.0:format>
+      <j.0:MediaTypeOrExtent rdf:about="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+    </j.0:format>
+    <j.0:title xml:lang="de">Jahresverdienst nach wirtschaftlicher Kontrolle (Unternehmen mit 10 beschäftige Personen oder mehr) - NACE Rev. 2, B-S ohne O</j.0:title>
+  </j.1:Distribution>
+</rdf:RDF>
